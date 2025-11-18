@@ -40,6 +40,7 @@
             </footer>
         </div>
     </div>
+    <LoadingOverlay v-if="pending" />
 </template>
 
 <script setup lang="ts">
