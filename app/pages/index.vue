@@ -4,9 +4,7 @@
             <header class="mb-8 flex flex-col items-center justify-center text-center">
                 <div class="mb-4 flex items-center gap-3 text-primary">
                     <div class="size-8">
-                        <svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M24 4C25.7818 14.2173 33.7827 22.2182 44 24C33.7827 25.7818 25.7818 33.7827 24 44C22.2182 33.7827 14.2173 25.7818 4 24C14.2173 22.2182 22.2182 14.2173 24 4Z"></path>
-                        </svg>
+                        <NuxtImg src="/favicon.png" alt="Logo" width="32" height="32" />
                     </div>
                     <h1 class="text-2xl font-bold tracking-tighter text-text">TK Student Result Portal</h1>
                 </div>
