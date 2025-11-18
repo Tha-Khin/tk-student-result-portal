@@ -3,7 +3,7 @@
         <header class="sticky top-0 z-10 w-full bg-card-light/80 backdrop-blur-sm border-b border-border-light">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex h-16 items-center justify-between">
-                    <div class="flex items-center gap-4">
+                    <div class="flex items-center gap-2">
                         <div class="text-primary">
                             <NuxtImg src="/favicon.png" alt="Logo" width="32" height="32" />
                         </div>
