@@ -7,11 +7,11 @@
                         <div class="text-primary">
                             <NuxtImg src="/favicon.png" alt="Logo" width="32" height="32" />
                         </div>
-                        <h2 @click="goBackHome()" class="text-lg font-bold cursor-pointer">{{pending ? 'Going Back Home...' : 'Back To Home'}}</h2>
+                        <h2 @click="goBackHome()" class="text-sm md:text-lg font-bold cursor-pointer">{{pending ? 'Going Back Home...' : 'Back To Home'}}</h2>
                     </div>
                     <button @click="printResult()" class="flex items-center justify-center gap-2 rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-wide hover:bg-primary/90 transition-colors">
                         <span class="material-symbols-outlined">print</span>
-                        <span class="truncate">Print Result</span>
+                        <span class="truncate">Print</span>
                     </button>
                 </div>
             </div>
@@ -20,7 +20,7 @@
             <div class="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
                 <div v-if="student" class="flex flex-col gap-8">
                     <div class="space-y-6">
-                        <h1 class="text-3xl sm:text-4xl font-black tracking-tighter">Student Academic Report</h1>
+                        <h1 class="text-3xl sm:text-4xl font-black tracking-tighter text-center">Student Academic Report</h1>
                         <div class="p-6 grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-2 bg-card-light rounded-xl border border-border-light">
                             <div class="flex flex-col gap-1">
                                 <p class="text-sm font-normal text-text-secondary-light">Student Name</p>
@@ -129,7 +129,7 @@
         </main>
         <footer class="w-full mt-auto border-t border-border-light">
             <div class="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-6">
-                <div class="flex items-center justify-center text-sm text-text-secondary-light">
+                <div class="text-center text-sm text-text-secondary-light">
                     <p>© 2025 TK Education Center. All Rights Reserved.</p>
                 </div>
             </div>
