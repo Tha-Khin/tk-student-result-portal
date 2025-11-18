@@ -24,7 +24,7 @@
                         <div class="p-6 grid grid-cols-2 md:grid-cols-4 gap-y-4 gap-x-2 bg-card-light rounded-xl border border-border-light">
                             <div class="flex flex-col gap-1">
                                 <p class="text-sm font-normal text-text-secondary-light">Student Name</p>
-                                <p class="text-sm font-medium">{{ student?.name }}</p>
+                                <p class="text-sm font-bold">{{ student?.name }}</p>
                             </div>
                             <div class="flex flex-col gap-1">
                                 <p class="text-sm font-normal text-text-secondary-light">Class</p>
