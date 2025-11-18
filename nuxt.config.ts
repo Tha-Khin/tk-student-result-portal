@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   runtimeConfig: {
-    gasUrl: import.meta.env.GAL_URL,
+    gasUrl: import.meta.env.GAS_URL,
   },
   app: {
     head: {
